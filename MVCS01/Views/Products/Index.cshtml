@@ -1,0 +1,9 @@
+@model List<MVCS01.Models.Product>
+
+<h1>Products</h1>
+<ul>
+    @foreach (Product product in Model)
+    {
+        <li>@product.Id - @product.Name</li>
+    }
+</ul>
